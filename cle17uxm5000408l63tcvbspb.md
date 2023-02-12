@@ -45,7 +45,7 @@ To produce a signed hash, a miner employs a brute-force approach to find a nonce
 
 # Blockchain
 
-Till now we have seen what is a block and what is a SHA256 Hash now we will see what is blockchain but before that, have you seen one more section above the `Hash` in the below table?
+Till now we have seen what is a block and what is a SHA256 Hash now we will see what is blockchain but before that, have you seen one more section above the `Hash`.
 
 Blockchain is a series of blocks that contain data and which is connected to the previous block with a cryptographic hash. In a block, we have a previous hash data field that stores the hash of the previous block.
 
@@ -61,7 +61,7 @@ Whenever we try to temper the previous block's data, the blocks will be invalid.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676100664806/4d5628a2-a0be-4934-a01f-7bda5ef74592.gif align="center")
 
-# **Distributed Blockchain**
+# Distributed Blockchain
 
 Now further extending the knowledge of blockchain, we will see what distributed blockchain is. It is a system, where a ledger is replicated and distributed to each node around the world.
 
