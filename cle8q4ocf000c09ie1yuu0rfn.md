@@ -57,9 +57,15 @@ There can be many applications of blockchain but some of the famous uses of bloc
 
 * **Decentralized finance (DeFi) 💸:** The money you own is controlled by the government and centralized authorities, who can block payments or deny you access to your money. There is also the risk of error and corruption due to human intervention in our current financial system. As an alternative, we can use Decentralized finance (DeFi), a collective term for financial products and services that are accessible to anyone which is based on blockchain. Here every transaction is open and accessible to anyone with an internet connection.
     
-* **Non-fungible tokens (NFT) 🖼️:** NFT provides proof of ownership of digital assets on the internet. Suppose you create a digital asset like a collectible, music, or video, How do you prove it is yours? Whenever you minted a digital asset on a blockchain it creates a unique token of that NFT and stores it in your wallet, it now lives on the blockchain and anybody can verify that it is yours. As you have minted it first. NFTs can also use to prove the ownership of real-world objects or assets.
+* **Non-fungible tokens (NFT) 🖼️:** NFT provides proof of ownership of digital assets on the internet. Suppose you create a digital asset like a collectable, music, or video, How do you prove it is yours? Whenever you minted a digital asset on a blockchain it creates a unique token of that NFT and stores it in your wallet, it now lives on the blockchain and anybody can verify that it is yours. As you have minted it first. NFTs can also use to prove the ownership of real-world objects or assets.
     
 * **Decentralized autonomous organizations (DAOs) 🤝:** DAOs are the digit organization that lives on the blockchain, in this organization there is no central authority, and rules are written on smart contracts. The voting system of a DAO is typically based on the amount of cryptocurrency that a member has invested in the organization, known as tokens or shares.
     
 
 There are more applications and uses of blockchain which I will explain in detail later in this series.
+
+# **What's on the next article?**
+
+Next, we will see the consensus protocol and how the mining work.
+
+%%[links]
