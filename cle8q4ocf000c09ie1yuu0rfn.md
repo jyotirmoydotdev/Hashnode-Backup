@@ -64,8 +64,8 @@ There can be many applications of blockchain but some of the famous uses of bloc
 
 There are more applications and uses of blockchain which I will explain in detail later in this series.
 
-# **What's on the next article?**
+# What's on the next article?
 
-Next, we will see the consensus protocol and how the mining work.
+Next, we will see what is cryptography as it is important to know before we start learning blockchain.
 
 %%[links]
