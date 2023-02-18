@@ -2,7 +2,7 @@
 
 I am a developer with a strong interest in blockchain technology. I have a wide range of skills and experience in the development field, and I am always keen to learn new technologies. I am a self-starter who can work independently, and I am also a good team player. I am proactive and have a positive attitude, which I believe are essential qualities for a successful developer.
 
-# **Background 📚**
+# Background 📚
 
 I am a senior at Chandhighar University, majoring in Computer Science with a strong interest in blockchain technology. My passion for blockchain began in my sophomore year when I took a course on distributed systems, which introduced me to the concept of decentralized networks and blockchain technology. Since then, I have been actively involved in blockchain communities, attending conferences and workshops to learn more about the latest developments in the field. In my free time, I have also worked on several personal projects related to blockchain. My background in computer science and my passion for blockchain have inspired me to pursue a career in blockchain development, contribute to the development of decentralized applications, and improve the security and transparency of blockchain networks.
 
