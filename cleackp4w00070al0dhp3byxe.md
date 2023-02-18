@@ -4,9 +4,13 @@ I am a developer with a strong interest in blockchain technology. I have a wide 
 
 # Languages and Tools
 
+---
+
 [![](https://skillicons.dev/icons?i=c,cpp,solidity,python,markdown,html,css,tailwind,mysql,docker,bash,git,github,linux,firebase align="left")](#)
 
 # Skills and Achievement
+
+---
 
 | Soft Skill | Technical Skill | Achievement |
 | --- | --- | --- |
@@ -15,19 +19,6 @@ I am a developer with a strong interest in blockchain technology. I have a wide 
 | Adaptability | Backend Development |  |
 | Problem-Solving | Smart Contract Development |  |
 | Self-Awareness |  |  |
-
-# Latest blog posts
-
-* [Decentralization with Blockchain](https://jyotirmoy.hashnode.dev/decentralization-with-blockchain)
-    
-* [Blockchain Structure](https://jyotirmoy.hashnode.dev/blockchain-structure)
-    
-* [What is Blockchain?](https://jyotirmoy.hashnode.dev/what-is-blockchain)
-    
-* [9\. Palindrome Number](https://jyotirmoy.hashnode.dev/9-palindrome-number)
-    
-* [NAPPTIVE made Cloud-Native Easy 🤯](https://jyotirmoy.hashnode.dev/napptive-made-cloud-native-easy)
-    
 
 # Question Solved
 
@@ -57,7 +48,7 @@ I am a developer with a strong interest in blockchain technology. I have a wide 
 
 ![](https://github-readme-stats.vercel.app/api?username=jyotirmoydotdev&theme=discord_old_blurple&hide_border=true align="left")
 
-## Education
+# Education
 
 | Institution Name | Course | Year | Grade |
 | --- | --- | --- | --- |
