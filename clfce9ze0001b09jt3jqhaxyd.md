@@ -49,12 +49,12 @@ You can find your Endpoint in the Endpoint section, copy the link which looks li
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679034216806/2f751ab3-186b-417b-9e2f-eab698dcef84.jpeg align="center")
 
-Create a variable `provider` and use `ethers.providers.JsonRpcProvider(``)` make sure you are using ` `` ` (Backtick) not this `''` (Apostrophe) if your use Apostrophes you will get an error. Past the copied link in the function parameter.
+Create a variable `provider` and use `ethers.providers.JsonRpcProvider(``)` make sure you are using ` `` ` (Backtick) not this `''` (Apostrophe) if your use Apostrophes you will get an error. Paste the copied link in the function parameter.
 
 ```javascript
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider(`Past the Endpoint here`)
+const provider = new ethers.providers.JsonRpcProvider(`Paste the Endpoint here`)
 ```
 
 ## Get an account address to fetch the balance
@@ -64,7 +64,7 @@ To fetch the balance of an account we need the account address or public key, yo
 ```javascript
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider(`Past the Endpoint here`)
+const provider = new ethers.providers.JsonRpcProvider(`Paste the Endpoint here`)
 
 const address = '0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e'
 ```
@@ -76,7 +76,7 @@ Ethers has a function with which we can fetch the balance of any address `provid
 ```javascript
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider(`Past the Endpoint here`)
+const provider = new ethers.providers.JsonRpcProvider(`Paste the Endpoint here`)
 
 const address = '0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e'
 
@@ -112,7 +112,7 @@ Run this code with `node main.js`
 ```javascript
 const { ethers } = require("ethers");
 
-const provider = new ethers.providers.JsonRpcProvider(`Past the Endpoint here`)
+const provider = new ethers.providers.JsonRpcProvider(`Paste the Endpoint here`)
 
 const address = '0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e'
 
