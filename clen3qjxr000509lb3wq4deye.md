@@ -1,4 +1,12 @@
-# Blockchain Storage
+---
+title: "Blockchain Storage"
+datePublished: Mon Feb 27 2023 17:36:38 GMT+0000 (Coordinated Universal Time)
+cuid: clen3qjxr000509lb3wq4deye
+slug: blockchain-storage
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677519243300/f388952f-18d1-40cf-8a74-aa39cbc0f0c8.jpeg
+tags: beginners, blockchain, ipfs
+
+---
 
 To understand the storage system on blockchain we need to first understand **what we store in the blockchain.** My previous [Blockchain Structure](https://jyotirmoy.dev/blockchain-structure) explains this.
 
@@ -75,6 +83,6 @@ IPFS makes sure that your file and its entire history are accessible to other no
 
 # What's on the next article?
 
-Next, we will what is Mining and Incentive Models.
+Next, we will see what is Mining and Incentive Models.
 
 %%[links]
