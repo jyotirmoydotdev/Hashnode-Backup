@@ -21,7 +21,7 @@ In contrast, the DeSci movement uses decentralized computing technologies, such 
 
 The DeSci movement offers numerous potential benefits for the research community, including greater transparency, inclusivity, and responsiveness to emerging problems and research questions. It prioritizes funding and swift publication on so-called "moonshot" projects and research for underfunded, marginalized communities, such as those with rare diseases.
 
-## Barriers to DeSci Participation
+# Barriers to DeSci Participation
 
 DeSci remains under-considered by institutional researchers seeking funding. One of the emerging technical challenges for academic participation in DeSci is the limited ability and infrastructure of university administrations and principal investigators to incorporate funding in digital assets. This can create difficulties for researchers who are collaborating internationally and seeking to secure funding through DeSci.
 
