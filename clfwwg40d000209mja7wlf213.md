@@ -1,9 +1,9 @@
 ---
-title: "Merge Two Sorted Lists - LC 28"
+title: "Merge Two Sorted Lists"
 datePublished: Fri Mar 31 2023 18:49:58 GMT+0000 (Coordinated Universal Time)
 cuid: clfwwg40d000209mja7wlf213
-slug: merge-two-sorted-lists-lc-28
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680288529925/64cfcab7-3d69-4fc5-aae9-ae35341272d0.jpeg
+slug: merge-two-sorted-lists
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682697390226/7cb9162b-dc92-41f4-a55b-2d2e292905e9.jpeg
 tags: leetcode, linkedlists
 
 ---
