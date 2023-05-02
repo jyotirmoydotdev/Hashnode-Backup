@@ -4,7 +4,7 @@ datePublished: Tue May 02 2023 05:00:41 GMT+0000 (Coordinated Universal Time)
 cuid: clh5swxa500010al63vpqhwtk
 slug: gpt-4-represents-progress-toward-artificial-general-intelligence-agi-part-2
 canonical: https://daotimes.com/gpt-4-represents-progress-towards-artificial-general-intelligence-agi-part-2/
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683003612937/9cb7436f-8491-460e-af1c-d0cd28fc1c4f.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683039202461/639ffdc0-b554-41df-9572-e1334fd20713.jpeg
 tags: ai, artificial-intelligence, gpt-4
 
 ---
