@@ -4,7 +4,7 @@ datePublished: Fri Apr 28 2023 15:40:13 GMT+0000 (Coordinated Universal Time)
 cuid: clh0pzy7t000209ld21mc8wz0
 slug: gpt-4-represents-progress-toward-artificial-general-intelligence-agi-part-1
 canonical: https://daotimes.com/gpt-4-represents-progress-towards-artificial-general-intelligence-part-1/
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682696282809/29002fdf-7d53-4d1a-8e52-4c30fd7cd72c.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683039110125/3fd8f808-8c9e-4099-8015-02586e09e01f.jpeg
 tags: ai, daos, gpt-4
 
 ---
