@@ -4,7 +4,7 @@ datePublished: Fri Apr 28 2023 15:08:59 GMT+0000 (Coordinated Universal Time)
 cuid: clh0ovsfi00000al268s8hwl8
 slug: academic-research-and-development-in-the-desci-movement
 canonical: https://daotimes.com/academic-research-and-development-in-the-desci-movement/
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682694360573/81808107-e6ab-4309-bf0a-c25e5aa9ebbd.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683004479067/d5c407cc-382f-4ec3-b879-40fafd8791f1.jpeg
 tags: research, blockchain, daos, desic
 
 ---
