@@ -1,4 +1,12 @@
-# 1. Two Sum
+---
+title: "Two Sum - LC1"
+datePublished: Thu Jan 19 2023 23:09:42 GMT+0000 (Coordinated Universal Time)
+cuid: cld3pgnm3000209mldhk29u5q
+slug: leetcode-1-two-sum
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674169293465/c35667b8-ed4b-4845-b94f-bf1235ea7a9b.jpeg
+tags: cpp, leetcode
+
+---
 
 # Question
 
