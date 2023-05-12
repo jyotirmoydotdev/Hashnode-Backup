@@ -1,6 +1,14 @@
-# 26. Remove Duplicates from Sorted Array
+---
+title: "Remove Duplicates from Sorted Array"
+datePublished: Fri Jan 20 2023 22:10:01 GMT+0000 (Coordinated Universal Time)
+cuid: cld52rqwj000009ms72nf0q7k
+slug: remove-duplicates-from-sorted-array
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674252517893/b96208cd-0b4c-48b0-ae16-28adf151e370.jpeg
+tags: cpp, leetcode
 
-# Question
+---
+
+# Question - LC26
 
 Read the Question here [https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
