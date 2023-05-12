@@ -1,4 +1,12 @@
-# 9. Palindrome Number
+---
+title: "Palindrome Number - LC9"
+datePublished: Sun Feb 05 2023 07:22:56 GMT+0000 (Coordinated Universal Time)
+cuid: cldr24l87000309ku9lm9axfx
+slug: palindrome-number-lc9
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675581633565/927c7803-ad44-4ae2-91ef-31fa947cf23b.jpeg
+tags: cpp, leetcode
+
+---
 
 # Question
 
