@@ -1,8 +1,8 @@
 ---
-title: "Valid Anagram"
+title: "Valid Anagram - LC242"
 datePublished: Sat May 13 2023 03:01:57 GMT+0000 (Coordinated Universal Time)
 cuid: clhleikz7000809kw1hru1jvf
-slug: valid-anagram
+slug: valid-anagram-lc242
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683946821029/858eb713-41a9-4aee-bf82-84b38347e750.jpeg
 tags: cpp, sorting, string, hash-table, leetcode
 
