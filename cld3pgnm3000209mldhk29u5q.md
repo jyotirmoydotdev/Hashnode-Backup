@@ -3,7 +3,7 @@ title: "Two Sum - LC1"
 datePublished: Sun May 14 2023 14:37:38 GMT+0000 (Coordinated Universal Time)
 cuid: cld3pgnm3000209mldhk29u5q
 slug: leetcode-1-two-sum
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684074944427/9a95cfe9-72f4-41fe-ba83-5ec3bc587c30.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684075201268/6b16ce71-d3b2-4d75-b250-3e5bf38a0487.jpeg
 tags: cpp, array, hash-table, leetcode
 
 ---
