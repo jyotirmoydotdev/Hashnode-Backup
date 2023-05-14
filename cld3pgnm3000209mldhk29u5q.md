@@ -1,14 +1,12 @@
 ---
 title: "Two Sum - LC1"
-datePublished: Thu Jan 19 2023 23:09:42 GMT+0000 (Coordinated Universal Time)
+datePublished: Sun May 14 2023 14:37:38 GMT+0000 (Coordinated Universal Time)
 cuid: cld3pgnm3000209mldhk29u5q
 slug: leetcode-1-two-sum
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674169293465/c35667b8-ed4b-4845-b94f-bf1235ea7a9b.jpeg
-tags: cpp, leetcode
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684074944427/9a95cfe9-72f4-41fe-ba83-5ec3bc587c30.jpeg
+tags: cpp, array, hash-table, leetcode
 
 ---
-
-# Question
 
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to* `target`.
 
@@ -16,24 +14,18 @@ You may assume that each input would have ***exactly* one solution**, and you ma
 
 You can return the answer in any order.
 
-**Example 1:**
-
-```xml
+```plaintext
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
-**Example 2:**
-
-```xml
+```plaintext
 Input: nums = [3,2,4], target = 6
-Output: [1,2]
+Output: [1,2]pl
 ```
 
-**Example 3:**
-
-```xml
+```plaintext
 Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
@@ -69,10 +61,21 @@ public:
 };
 ```
 
-The solution we will be using is brute force, the function takes two variables one is nums which contain the vector and the other one is a target which we need to find by summing two indexes in the vector and if we got the sum we will return the index in a new vector.
+The code is written in C++ and aims to find a pair of indices in a given vector (`nums`) that sum up to a specific target value. Here's an explanation of the code:
 
-Before we start the for loops first we need to make an empty vector, which we will call `ans`. we will use a nested for loop to check if the target is present in the array. The first loop starts with the i'th which is 0 and stops at (vector size - 1) and the inner for loop starts at i+1 and stops as same as (vector size -1), if the index i and i+n (where n is a number less than vector size but greater than i) is equal to the target value we will push the index to the new array `ans` and return it. It has O(n^2) time complexity as it has two nested loops. Below you can see an animation of how this program works.
+1. The function `twoSum` takes two parameters: `nums`, a reference to a vector of integers, and `target`, an integer representing the target sum.
+    
+2. It declares a vector of integers called `ans` to store the resulting indices that sum up to the target.
+    
+3. The outer `for` loop iterates over each element of the `nums` vector. It uses the variable `i` as the index of the first number in a potential pair.
+    
+4. The inner `for` loop starts from `i + 1` and iterates over the remaining elements of the `nums` vector. It uses the variable `j` as the index of the second number in the pair.
+    
+5. Inside the inner loop, the condition `(nums[i] + nums[j]) == target` checks if the sum of the current pair of numbers equals the target value.
+    
+6. If the condition is true, the indices `i` and `j` are added to the `ans` vector using the `push_back` function.
+    
+7. After both loops have finished iterating, the function returns the `ans` vector containing the indices of the pair that sum up to the target.
+    
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674166201237/530d630d-4026-40e8-b755-76cfadc4027d.gif align="center")
-
-%%[links]
+In summary, the code uses a nested loop to compare each pair of numbers in the vector `nums`. If a pair with a sum equal to the target is found, the indices of that pair are stored in the `ans` vector, which is then returned as the result.
