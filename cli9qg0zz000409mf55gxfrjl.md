@@ -3,7 +3,7 @@ title: "Singapore University of Social Sciences proposed a new voting mechanism 
 datePublished: Tue May 30 2023 03:42:21 GMT+0000 (Coordinated Universal Time)
 cuid: cli9qg0zz000409mf55gxfrjl
 slug: singapore-university-of-social-sciences-proposed-a-new-voting-mechanism-for-dao-governance
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685418087118/e08df079-dd48-4d9a-89fe-2c184fe0c9df.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691164754458/c8e00934-5eba-4f97-b8d3-023ca44449c9.png
 tags: blockchain, ethereum, daos
 
 ---
