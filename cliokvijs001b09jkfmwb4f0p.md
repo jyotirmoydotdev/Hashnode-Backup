@@ -3,7 +3,7 @@ title: "The challenge of determining the legal status of DAOs"
 datePublished: Fri Jun 09 2023 13:02:58 GMT+0000 (Coordinated Universal Time)
 cuid: cliokvijs001b09jkfmwb4f0p
 slug: the-challenge-of-determining-the-legal-status-of-daos
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686315725746/43f197f0-caf2-4f09-8211-00f6d62a74f0.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691148963792/39f2c04a-977d-457c-88c3-d9286aa44972.jpeg
 tags: blockchain, ethereum, daos
 
 ---
