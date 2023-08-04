@@ -3,7 +3,7 @@ title: "How to interact with Smart Contract?"
 datePublished: Tue Mar 21 2023 20:41:51 GMT+0000 (Coordinated Universal Time)
 cuid: clfiq1hmp000109l1fc9vc246
 slug: how-to-interact-with-smart-contract
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691136382782/f33c5229-9c92-4d5a-b55b-2ec23cb98585.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691137199255/7eeeb2cf-6c23-405b-915a-651bc5a1b890.jpeg
 tags: tutorial, blockchain, ethereum, smart-contracts, ethers
 
 ---
