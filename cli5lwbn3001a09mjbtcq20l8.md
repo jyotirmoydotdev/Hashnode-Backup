@@ -3,7 +3,7 @@ title: "The benefits and drawbacks of On-Chain and Off-Chain voting"
 datePublished: Sat May 27 2023 06:23:58 GMT+0000 (Coordinated Universal Time)
 cuid: cli5lwbn3001a09mjbtcq20l8
 slug: the-benefits-and-drawbacks-of-on-chain-and-off-chain-voting
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685168578262/661657be-7966-4a35-91ee-989c68a6b92d.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691163314842/a272e71c-2df8-4b80-ae62-c94528028f26.png
 tags: blockchain, daos, voting
 
 ---
