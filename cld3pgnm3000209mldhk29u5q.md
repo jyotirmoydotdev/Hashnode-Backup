@@ -1,14 +1,14 @@
 ---
-title: "Two Sum - LC1"
-datePublished: Sun May 14 2023 14:37:38 GMT+0000 (Coordinated Universal Time)
+title: "Two Sum - Leetcode 1"
+datePublished: Tue Aug 08 2023 14:37:38 GMT+0000 (Coordinated Universal Time)
 cuid: cld3pgnm3000209mldhk29u5q
 slug: leetcode-1-two-sum
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684075201268/6b16ce71-d3b2-4d75-b250-3e5bf38a0487.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691501724548/0e8de6ca-3833-4704-9201-9216d2fe69d0.jpeg
 tags: cpp, array, hash-table, leetcode
 
 ---
 
-Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to* `target`.
+Given an array of integer `nums` and an integer `target`, return *indices of the two numbers such that they add up to* `target`.
 
 You may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.
 
@@ -74,9 +74,10 @@ Here’s a breakdown of how the code works:
         
     * If the difference exists as a key (ok is true), it means we have found a pair of elements whose sum equals the target. We return an array containing the indices of those elements: \[m\[target-num\], i\].
         
-4. If the difference was not found in the map, add the current num as a key to the map m, with the value being the current index i. 
+4. If the difference was not found in the map, add the current num as a key to the map m, with the value being the current index i.
+    
 5. If the loop completes without finding a valid pair, return an empty array (\[\]int{}) to indicate that no such pair was found.
-            
+    
 
 In essence, the code utilizes a hash map to keep track of the elements encountered so far. For each element num, it checks if the difference target - num exists in the map. If it does, the function returns the indices of the two elements that sum up to the target. If not, the element is added to the map for future reference. This approach ensures that we can quickly look up elements in the map to find pairs that satisfy the sum requirement.
 
@@ -113,7 +114,7 @@ The code is written in C++ and aims to find a pair of indices in a given vector 
     
 5. Inside the inner loop, the condition `(nums[i] + nums[j]) == target` checks if the sum of the current pair of numbers equals the target value.
     
-6. If the condition is true, the indices `i` and `j` are added to the `ans` vector using the `push_back` function.
+6. If the condition is true, the indices `i` and `j` is added to the `ans` vector using the `push_back` function.
     
 7. After both loops have finished iterating, the function returns the `ans` vector containing the indices of the pair that sum up to the target.
     
