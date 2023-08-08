@@ -43,7 +43,7 @@ Output: [0,1]
 * **Only one valid answer exists.**
     
 
-# Answer
+# Answer in Golang
 
 ```go
 // Golang
