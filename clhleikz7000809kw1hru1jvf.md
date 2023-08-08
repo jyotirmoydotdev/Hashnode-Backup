@@ -55,7 +55,11 @@ func isAnagram(s string, t string) bool {
 }
 ```
 
-Let's break down the code step by step:
+This code defines a function called `isAnagram` that takes two string inputs, `s` and `t`, and returns a boolean value indicating whether they are anagrams of each other.
+
+An anagram is a word or phrase formed by rearranging the letters of another word or phrase, typically using all the original letters exactly once. In this case, the code is checking if two strings, `s` and `t`, are anagrams of each other.
+
+Let’s break down the code step by step:
 
 1. The function `isAnagram` takes two string parameters, `s` and `t`, and returns a boolean value indicating whether they are anagrams of each other.
     
