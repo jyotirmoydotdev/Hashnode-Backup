@@ -1,12 +1,14 @@
 ---
-title: "Contains Duplicate - LC217"
-datePublished: Fri May 12 2023 16:03:49 GMT+0000 (Coordinated Universal Time)
+title: "Contains Duplicate - Leetcode 217"
+datePublished: Tue Aug 08 2023 15:26:07 GMT+0000 (Coordinated Universal Time)
 cuid: clhkr08fb000g09l1be8zaj2i
-slug: contains-duplicate-lc217
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683907283512/dbca7cf6-1a2b-49de-a8c3-21bdc2be5f90.jpeg
+slug: contains-duplicate-leetcode-217
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691508333960/b8466716-db45-4055-a6b6-74bacc77a99b.jpeg
 tags: cpp, sorting, array, hash-table, leetcode
 
 ---
+
+# Problem
 
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
 
@@ -32,45 +34,41 @@ Output: true
 * `-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>`
     
 
----
-
 ## Answer
 
-```cpp
-class Solution {
-public:
-    bool containsDuplicate(vector<int>& nums) {
-        unordered_set<int> nums1;
-        for(auto n : nums){
-        nums1.insert(n);
-        }
-        if (nums.size()!=nums1.size()){
-            return true;
-        }
-        return false;
-    }
-};
+```go
+func containsDuplicate(nums []int) bool {
+	nums_map := map[int]int{}
+	for _, n := range nums {
+		if _, ok := nums_map[n]; !ok {
+			nums_map[n] = 1
+		} else {
+			return true
+		}
+	}
+	return false
+}
 ```
 
-This code implements a function called `containsDuplicate` that takes a vector of integers `nums` as input and returns a boolean value indicating whether the vector contains any duplicate elements.
+This code defines a function named `containsDuplicate` that takes a single argument `nums`, which is a slice of integers. The purpose of this function is to determine whether the given slice of integers contains any duplicates or not. It returns a boolean value (`true` if there are duplicates, and `false` otherwise).
 
-Here's a step-by-step explanation of how the code works:
+Here's a step-by-step breakdown of the code:
 
-1. Create an empty unordered set called `nums1`. An unordered set is a data structure that stores unique elements in no particular order. It is used here to check for duplicate elements efficiently.
+1. The function starts by declaring an empty map named `nums_map`, which is used to keep track of the frequency of each integer in the input slice. The keys of the map are integers, and the values are integers representing the frequency of each integer in the slice.
     
-2. Iterate over each integer `n` in the input vector `nums`.
+2. The code then enters a loop that iterates over each element (`n`) in the input `nums` slice.
     
-    * Insert the integer `n` into the unordered set `nums1` using the `insert` function. Since the set only allows unique elements, if `n` is already present in the set, it will not be inserted again.
-        
-3. After the iteration, the unordered set `nums1` will contain unique elements from the input vector `nums`. If there are any duplicate elements in `nums`, they would not have been inserted into the set.
+3. Inside the loop, the code checks whether the current integer `n` is already present in the `nums_map` by using the line:
     
-4. Check if the size of the input vector `nums` is different from the size of the unordered set `nums1`. If they are different, it means that there were duplicate elements in the input vector.
+    ```go
+    if _, ok := nums_map[n]; !ok {
+    ```
     
-    * If the sizes are different, return `true` to indicate that the vector contains duplicates.
-        
-5. If the sizes are the same, it means that all elements in the vector are unique and there are no duplicates.
+4. Here, `ok` is a boolean variable that indicates whether the key `n` is present in the map or not. If `n` is not present (`!ok` is true), then the code sets the frequency of `n` to `1` in the `nums_map`, indicating that this integer has been encountered once.
     
-    * In this case, return `false` to indicate that the vector does not contain duplicates.
-        
+5. If the integer `n` is already present in the `nums_map`, it means that there's a duplicate. In that case, the code immediately returns `true`, indicating that duplicates have been found in the input slice.
+    
+6. If no duplicate has been found during the iteration, the code returns `false`, indicating that no duplicates were detected in the input slice.
+    
 
-In summary, the code uses an unordered set to efficiently check for duplicate elements by inserting each element from the vector into the set. It then compares the sizes of the vector and the set to determine if there are any duplicates.
+In essence, this code uses a map to keep track of the frequency of integers in the input slice. If any integer is encountered more than once, it means there's a duplicate, and the function returns `true`. Otherwise, if no duplicates are found after iterating through the entire input slice, the function returns `false`.
