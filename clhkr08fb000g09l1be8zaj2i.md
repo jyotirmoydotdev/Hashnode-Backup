@@ -34,7 +34,7 @@ Output: true
 * `-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>`
     
 
-## Answer
+# Answer
 
 ```go
 func containsDuplicate(nums []int) bool {
