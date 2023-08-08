@@ -1,12 +1,14 @@
 ---
-title: "Valid Anagram - LC242"
-datePublished: Sat May 13 2023 03:01:57 GMT+0000 (Coordinated Universal Time)
+title: "Valid Anagram - Leetcode 242"
+datePublished: Tue Aug 08 2023 19:16:33 GMT+0000 (Coordinated Universal Time)
 cuid: clhleikz7000809kw1hru1jvf
-slug: valid-anagram-lc242
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683946821029/858eb713-41a9-4aee-bf82-84b38347e750.jpeg
+slug: valid-anagram-leetcode-242
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691522078514/40ab3e22-2f4c-4e93-99ce-8a74d1eff8d0.jpeg
 tags: cpp, sorting, string, hash-table, leetcode
 
 ---
+
+# Problem
 
 Given two strings `s` and `t`, return `true` *if* `t` *is an anagram of* `s`*, and* `false` *otherwise*.
 
@@ -29,54 +31,43 @@ Output: false
 * `s` and `t` consist of lowercase English letters.
     
 
----
+# Answer
 
-## Answer
+```go
+func isAnagram(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
 
-```cpp
-class Solution {
-public:
-    bool isAnagram(string s, string t) {
-        if (s.size()!=t.size()){
-        return false;
-    }
-    vector<char> s_vec(s.begin(), s.end());
-    vector<char> t_vec(t.begin(), t.end());
+	mapS, mapT := make(map[uint8]int), make(map[uint8]int)
 
-    map<char,int> m;
-    map<char,int> n;
-    
-    for (int i=0;i<s.size();i++){
-        m[s_vec[i]]++;
-    }
-    for (int i=0;i<t.size();i++){
-        n[t_vec[i]]++;
-    }
-    if (m==n){
-        return true;
-    }
-    return false;
-    }
-};
+	for i := 0; i < len(s); i++ {
+		mapS[s[i]]++
+		mapT[t[i]]++
+	}
+	for key, Value := range mapS {
+		if mapT[key] != Value {
+			return false
+		}
+	}
+
+	return true
+}
 ```
 
-The given code is an implementation of a function `isAnagram` that checks whether two input strings `s` and `t` are anagrams of each other.
+Let's break down the code step by step:
 
-Here's a step-by-step explanation of the code:
-
-1. The function begins by comparing the lengths of strings `s` and `t` using the `size()` function. If the lengths are different, it means the strings cannot be anagrams, so the function returns `false`.
+1. The function `isAnagram` takes two string parameters, `s` and `t`, and returns a boolean value indicating whether they are anagrams of each other.
     
-2. Next, two vectors `s_vec` and `t_vec` are created. These vectors are initialized with the characters from strings `s` and `t` respectively using the constructor that takes two iterators (begin and end) to specify the range. This allows us to iterate over the characters of the strings more easily.
+2. The first check compares the lengths of strings `s` and `t`. If they are not of the same length, it means they cannot be anagrams. In this case, the function immediately returns `false`.
     
-3. Two maps, `m` and `n`, are created using the `map` container from the C++ Standard Library. These maps will store characters as keys and their respective counts as values. The map data structure provides an efficient way to store and access the frequency of each character.
+3. Two maps, `mapS` and `mapT`, are initialized using the built-in `make` function. These maps will be used to store the frequency of characters in strings `s` and `t` respectively. The keys of these maps are of type `uint8`, representing byte values (essentially ASCII values), and the values are integers representing the frequency of each character.
     
-4. A loop is used to iterate over the characters of string `s`. In each iteration, the corresponding character is used as a key in the map `m`, and its count is incremented by one. This step calculates the frequency of each character in string `s`.
+4. A loop runs through each character of strings `s` and `t` simultaneously (since they have the same length). Inside the loop, the frequencies of characters in both `mapS` and `mapT` are updated. This is achieved by using the characters as keys and incrementing their corresponding values in the maps.
     
-5. Another loop is used to iterate over the characters of string `t`. In each iteration, the corresponding character is used as a key in the map `n`, and its count is incremented by one. This step calculates the frequency of each character in string `t`.
+5. After populating both maps with character frequencies, a second loop iterates through the keys in `mapS`. For each key, it checks if the frequency of that character in `mapT` is equal to the frequency in `mapS`. If not, it means that the character frequencies between the two strings are not the same, which would indicate that the strings are not anagrams. In this case, the function returns `false`.
     
-6. After counting the frequencies of characters in both strings, the code compares the two maps `m` and `n` using the `==` operator. If the maps are equal, it means that both strings contain the same characters with the same frequencies, indicating that they are anagrams. In this case, the function returns `true`.
-    
-7. If the maps are not equal, it means that the strings are not anagrams, so the function returns `false`.
+6. If the second loop completes without returning `false`, it means that the character frequencies in both maps are the same, which implies that the input strings `s` and `t` are anagrams of each other. Thus, the function returns `true`.
     
 
-In summary, the code checks whether two strings are anagrams by comparing the frequencies of their characters using maps. If the frequencies match, the strings are considered anagrams; otherwise, they are not.
+In summary, this code determines whether two input strings are anagrams by comparing their lengths and checking the frequencies of characters in each string. If the lengths are different or if the character frequencies do not match, the function returns `false`, indicating that the strings are not anagrams. If the character frequencies are the same, the function returns `true`, indicating that the strings are anagrams.
