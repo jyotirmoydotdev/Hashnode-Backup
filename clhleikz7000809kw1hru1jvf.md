@@ -31,7 +31,7 @@ Output: false
 * `s` and `t` consist of lowercase English letters.
     
 
-# Answer
+# Answer in Golang
 
 ```go
 func isAnagram(s string, t string) bool {
