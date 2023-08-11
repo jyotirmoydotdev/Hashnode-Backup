@@ -1,8 +1,8 @@
 ---
-title: "Group Anagrams - LC49"
+title: "Group Anagrams - Leetcode 49"
 datePublished: Fri Aug 11 2023 14:01:35 GMT+0000 (Coordinated Universal Time)
 cuid: clhowbl0k000d09mnce9n8xkj
-slug: group-anagrams-lc49
+slug: group-anagrams-leetcode-49
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691762469331/e6ed6271-744c-4224-a7bc-79e5a131404d.jpeg
 tags: sorting, string, array, hash-table
 
