@@ -2,7 +2,7 @@
 title: "Contains Duplicate - Leetcode 217"
 datePublished: Tue Aug 08 2023 15:26:07 GMT+0000 (Coordinated Universal Time)
 cuid: clhkr08fb000g09l1be8zaj2i
-slug: contains-duplicate-leetcode-217
+slug: leetcode-0217
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691508333960/b8466716-db45-4055-a6b6-74bacc77a99b.jpeg
 tags: cpp, sorting, array, hash-table, leetcode
 
