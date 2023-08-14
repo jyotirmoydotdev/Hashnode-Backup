@@ -2,7 +2,7 @@
 title: "Group Anagrams - Leetcode 49"
 datePublished: Fri Aug 11 2023 14:01:35 GMT+0000 (Coordinated Universal Time)
 cuid: clhowbl0k000d09mnce9n8xkj
-slug: group-anagrams-leetcode-49
+slug: leetcode-0049
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691762469331/e6ed6271-744c-4224-a7bc-79e5a131404d.jpeg
 tags: sorting, string, array, hash-table
 
@@ -38,7 +38,7 @@ Output: [["a"]]
 * `strs[i]` consists of lowercase English letters.
     
 
-# Answer in Golang
+# Answer-1 Top Runtime in Golang
 
 ```go
 func groupAnagrams(strs []string) [][]string {
@@ -60,7 +60,9 @@ func groupAnagrams(strs []string) [][]string {
 }
 ```
 
-The provided Go code step-by-step:
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692025828868/8a2aa723-dd93-43b2-a334-801433cee163.png align="center")
+
+The Go code step-by-step:
 
 1. The function `groupAnagrams` takes a slice of strings called `strs` as input and returns a 2D slice of strings where each inner slice represents a group of anagrams.
     
@@ -96,3 +98,86 @@ The provided Go code step-by-step:
     
 
 In summary, this code takes a list of strings, groups them based on their anagram patterns using a map, and returns a 2D slice containing these groups of anagrams.
+
+# Answer-2 Top Memory in Golang
+
+```go
+func groupAnagrams(strs []string) [][]string {
+    res := make([][]string, 0)
+    for _, str := range strs {
+        found := false
+        for i, amalArr := range res {
+            ele := amalArr[0]
+            if isAnagram(ele, str) {
+                amalArr = append(amalArr, str)   
+                found = true
+                res[i] = amalArr
+            }
+        }
+        if !found {
+            temparr := make([]string, 0)
+            temparr = append(temparr, str)
+            res = append(res, temparr)
+        }
+    }
+    return res
+}
+
+func isAnagram(s string, t string) bool {
+    arr := make([]int, 26)
+    for _, c := range s {
+        arr[byte(c)-byte('a')] += 1
+    }
+    for _, c := range t {
+        arr[byte(c)-byte('a')] -= 1
+    }
+    for _, c := range arr {
+       if c != 0 {
+           return false
+       }
+    }  
+    return true
+
+}
+```
+
+This code defines two functions: `groupAnagrams` and `isAnagram`. The main purpose of the code is to group anagrams together from a given slice of strings. Anagrams are words that have the same letters but in a different order.
+
+1. `isAnagram(s string, t string) bool`: This function takes two strings as input and checks whether they are anagrams. It does so by counting the occurrences of each character in both strings and comparing the character frequency arrays.
+    
+    * `arr := make([]int, 26)`: Creates an integer array of size 26 to store the frequency of each lowercase English letter.
+        
+    * `for _, c := range s`: Loops through each character in the first input string `s`.
+        
+        * `arr[byte(c)-byte('a')] += 1`: Increments the count for the character's position in the array by 1.
+            
+    * `for _, c := range t`: Loops through each character in the second input string `t`.
+        
+        * `arr[byte(c)-byte('a')] -= 1`: Decrements the count for the character's position in the array by 1.
+            
+    * Finally, it checks whether all the counts in the `arr` are 0, indicating that both strings have the same character frequency.
+        
+        * If all counts are 0, it returns `true` (strings are anagrams), otherwise, it returns `false`.
+            
+2. `groupAnagrams(strs []string) [][]string`: This function takes a slice of strings `strs` and groups anagrams together.
+    
+    * `res := make([][]string, 0)`: Initializes an empty slice of slices of strings to store the grouped anagrams.
+        
+    * It then iterates through each string `str` in the input slice `strs`.
+        
+        * `found := false`: A flag to track whether the current string is found within existing anagram groups.
+            
+        * The loop then goes through the existing anagram groups stored in `res` and checks if the current `str` is an anagram with any of the strings in the group.
+            
+            * If an anagram is found, the current `str` is appended to that group, and `found` is set to `true`.
+                
+            * The modified group is then stored back into `res`.
+                
+        * If no anagram group is found for the current `str`, a new temporary array `temparr` is created, containing only the current `str`.
+            
+            * This temporary array is then appended to the `res` array.
+                
+    * After processing all input strings, the function returns the `res` array, containing the grouped anagram arrays.
+        
+
+Overall, the `groupAnagrams` function uses the `isAnagram` function to group anagrams together by iterating through the input strings and either adding them to existing groups or creating new groups as needed.
