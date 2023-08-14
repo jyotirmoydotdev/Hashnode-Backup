@@ -3,7 +3,7 @@ title: "Longest Consecutive Sequence - Leetcode 128"
 datePublished: Mon Aug 14 2023 16:05:34 GMT+0000 (Coordinated Universal Time)
 cuid: cllb2gk10000e09ju4n3k7oyv
 slug: leetcode-0128
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692030284018/b0157aaa-7db7-4ce4-b0f9-fec7b840c5b2.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692030744082/23afb036-ed03-4ea8-8dd6-a1fdd9e57cdd.jpeg
 tags: golang, leetcode
 
 ---
