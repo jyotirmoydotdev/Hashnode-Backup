@@ -4,6 +4,7 @@ datePublished: Thu Aug 17 2023 14:59:37 GMT+0000 (Coordinated Universal Time)
 cuid: cllfafahx000509l3cp5fe36y
 slug: a-simple-http-server-using-golang
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692284212452/26b376ab-2d1a-4492-8b92-cdfbc77fe811.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692285232939/b9cf9401-6885-4e66-8472-0c667de8a7f0.jpeg
 tags: server, golang
 
 ---
