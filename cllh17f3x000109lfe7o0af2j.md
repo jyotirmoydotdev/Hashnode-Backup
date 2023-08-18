@@ -3,13 +3,13 @@ title: "Use Gin Web Framework to build your server"
 datePublished: Fri Aug 18 2023 20:17:05 GMT+0000 (Coordinated Universal Time)
 cuid: cllh17f3x000109lfe7o0af2j
 slug: use-gin-web-framework-to-build-your-server
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692389762409/ed30ba2f-f362-4d26-8cf3-34edec92a159.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692389802422/6fbd9942-52cb-4d99-962d-947c04acf4d3.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692390329294/637c8ccf-ee7f-4fb4-8902-eba7cf9782c8.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692390364608/81f1b979-e066-412a-b2fe-a81b864b41ee.jpeg
 tags: server, golang
 
 ---
 
-Let's build a simple web service using the Go programming language and the Gin web framework. We will define a basic web server that listens for incoming HTTP requests and responds with JSON data. The application would have a modular structure with separate files for the main application logic (`Main.go`), route handling (`web/Router.go`), and a specific route handler (`web/Assignments.go`).
+Let's build a simple web service using the Go programming language and the Gin web framework. We will define a basic web server that listens for incoming HTTP requests and responds with JSON data. The application would have a modular structure with separate files for the main application logic (`main.go`), route handling (`web/router.go`), and a specific route handler (`web/assignments.go`).
 
 ```bash
 ├── go.mod
