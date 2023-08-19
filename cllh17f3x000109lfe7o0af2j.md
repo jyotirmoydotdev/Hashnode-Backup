@@ -4,7 +4,6 @@ datePublished: Fri Aug 18 2023 20:17:05 GMT+0000 (Coordinated Universal Time)
 cuid: cllh17f3x000109lfe7o0af2j
 slug: use-gin-web-framework-to-build-your-server
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692390329294/637c8ccf-ee7f-4fb4-8902-eba7cf9782c8.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692390364608/81f1b979-e066-412a-b2fe-a81b864b41ee.jpeg
 tags: server, golang
 
 ---
