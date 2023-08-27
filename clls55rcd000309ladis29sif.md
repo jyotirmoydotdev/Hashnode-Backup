@@ -2,7 +2,7 @@
 title: "Longest Substring Without Repeating Characters - Leetcode 3"
 datePublished: Sat Aug 26 2023 14:53:14 GMT+0000 (Coordinated Universal Time)
 cuid: clls55rcd000309ladis29sif
-slug: leetcode-003
+slug: leetcode-0003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693061209415/a39e0123-7cd6-4452-ab92-b00d5fc872a6.jpeg
 tags: go, leetcode
 
