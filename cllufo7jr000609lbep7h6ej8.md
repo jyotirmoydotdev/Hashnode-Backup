@@ -88,10 +88,9 @@ This code defines a function called `characterReplacement` which takes two param
     
     c. The code checks if the number of characters that need to be replaced in the current substring `(right - left + 1) - maxF` exceeds the given limit `k`.
     
-    * If the limit is exceeded, it means the substring needs more replacements than allowed. So, we move the `left` pointer one step to the right and decrease the frequency count of the character at that position.
-        
+    d. If the limit is exceeded, it means the substring needs more replacements than allowed. So, we move the `left` pointer one step to the right and decrease the frequency count of the character at that position.
     
-    d. `result = max(result, right - left + 1)`: Update `result` with the maximum length of valid substrings encountered so far.
+    e. `result = max(result, right - left + 1)`: Update `result` with the maximum length of valid substrings encountered so far.
     
 6. After the loop, the function returns the calculated `result`, which represents the length of the longest substring with at most `k` replacements allowed to make all characters the same.
     
