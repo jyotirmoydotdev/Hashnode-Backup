@@ -7,4 +7,4 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694896706489/030b56d
 
 ---
 
-.
+Get ready for a service that will take your offline business into the online world effortlessly.
