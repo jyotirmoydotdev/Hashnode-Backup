@@ -7,4 +7,4 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694898839112/829067f
 
 ---
 
-Get ready for a service that will take your offline business into the online world effortlessly.
+If you are from **Tura, Meghalaya**, and own a business, whether it is clothing, jewellery, or decor. Get ready for a service that will seamlessly transition your offline business into the online world.
