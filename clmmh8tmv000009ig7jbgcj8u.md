@@ -9,4 +9,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694901904327/208dbd7
 
 If you are from **Tura, Meghalaya**, and own a business, whether it is clothing, jewellery, or decor. Get ready for a service that will seamlessly transition your offline business into the online world.
 
-%%[price]
+<script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+<stripe-pricing-table pricing-table-id="prctbl_1NrFWYSDooqEfDkJ2Whs96yJ"
+publishable-key="pk_live_51LT2XoSDooqEfDkJDWe4M2wntTVAc4PQZwi1gzSnu4WP7XdfXCctKdCRgqE0dXgIq0208Hi97AldDYuqgRS4abzP009hnG7Oh6">
+</stripe-pricing-table>
