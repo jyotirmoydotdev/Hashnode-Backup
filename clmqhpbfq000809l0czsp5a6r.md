@@ -3,7 +3,7 @@ title: "Daily Temperatures - Leetcode 739"
 datePublished: Tue Sep 19 2023 15:48:32 GMT+0000 (Coordinated Universal Time)
 cuid: clmqhpbfq000809l0czsp5a6r
 slug: leetcode-0739
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695138453432/3c94c7fd-80fe-40e1-ab72-d3b0f2f761d6.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695138731401/ee3ebeb2-1422-46c9-8231-d8dc4467c5a1.jpeg
 tags: go, leetcode
 
 ---
