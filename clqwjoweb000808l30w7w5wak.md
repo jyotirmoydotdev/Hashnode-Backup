@@ -1,8 +1,8 @@
 ---
-title: "Search in Rotated Sorted Array - Leetcode 0033"
+title: "Search in Rotated Sorted Array - Leetcode 33"
 datePublished: Tue Jan 02 2024 16:09:38 GMT+0000 (Coordinated Universal Time)
 cuid: clqwjoweb000808l30w7w5wak
-slug: search-in-rotated-sorted-array-leetcode-0033
+slug: search-in-rotated-sorted-array-leetcode-33
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704211729135/7b5839f9-3cee-4d2e-9d66-15c1b4406499.png
 tags: go, leetcode
 
