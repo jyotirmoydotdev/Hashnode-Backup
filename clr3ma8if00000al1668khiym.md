@@ -30,7 +30,7 @@ Output: 2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
 
- **Constraints:**
+**Constraints:**
 
 * `nums1.length == m`
     
@@ -119,3 +119,40 @@ func min(a, b float64) float64 {
 	return b
 }
 ```
+
+This Go code implements the median of two sorted arrays algorithm. The goal is to find the median value of the combined sorted arrays `nums1` and `nums2`. The algorithm uses a binary search approach to efficiently partition the arrays.
+
+Here's a breakdown of the code:
+
+1. **Variable Initialization:**
+    
+    * `A` and `B` are assigned the input arrays `nums1` and `nums2`.
+        
+    * `total` represents the total number of elements in both arrays.
+        
+    * `half` is calculated as the middle index of the combined arrays.
+        
+2. **Partitioning and Binary Search:**
+    
+    * If the length of array `B` is less than `A`, swap them.
+        
+    * Initialize left (`l`) and right (`r`) pointers for array `A`.
+        
+    * Inside the binary search loop:
+        
+        * Calculate indices `i` for array `A` and `j` for array `B`.
+            
+        * Update variables (`Aleft`, `Aright`, `Bleft`, `Bright`) to store values around the partition.
+            
+        * Check if the partition is correct. If so, determine the median based on whether the total number of elements is odd or even.
+            
+        * Adjust the pointers based on the values at the current partition.
+            
+3. **Helper Functions:**
+    
+    * `max` returns the maximum of two given float64 values.
+        
+    * `min` returns the minimum of two given float64 values.
+        
+
+The core logic involves adjusting the partition of the arrays (`A` and `B`) until the correct position is found where elements on the left side are smaller or equal to elements on the right side. The median is then calculated based on this partition. The use of `math.Inf` represents positive and negative infinity for comparison purposes.
